@@ -1,0 +1,10 @@
+diff --git a/Misc/python.pc.in b/Misc/python.pc.in
+index ae698674bb..45ba687295 100644
+--- a/Misc/python.pc.in
++++ b/Misc/python.pc.in
+@@ -10,4 +10,4 @@ Requires:
+ Version: @VERSION@
+ Libs.private: @LIBS@
+ Libs: -L${libdir} -lpython@VERSION@@ABIFLAGS@
+-Cflags: -I${includedir}/python@VERSION@@ABIFLAGS@
++Cflags: -I${includedir}/python@VERSION@
